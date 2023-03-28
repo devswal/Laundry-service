@@ -1,0 +1,176 @@
+/* <style> */
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700;800&family=Source+Sans+Pro:wght@300;400;600;900&display=swap');
+/* </style> */
+
+.signin__body{
+    display: flex;
+    border-bottom: 2px solid #5861AE;
+    height: 32rem;
+}
+.signin{
+    display: flex;
+    flex-direction: column;
+}
+.signin__left{
+    flex: 0.5;
+    float: left;
+    margin: auto;
+    text-align: center;
+    
+}
+.signin__right{
+    flex: 0.5;
+    float: right;
+    background-color: #B9C0FD1A;
+    background-size: cover;
+    padding-top: 6rem;
+    text-align: left;
+    justify-content: space-between;
+    /* font-family: 'Raleway', sans-serif; */
+font-family: 'Source Sans Pro', sans-serif;
+}
+.signin__left__content{
+    display: flex;
+    flex-direction: column;
+
+}
+.signin__right__content{
+    display: flex;
+    flex-direction: column;
+    place-items: left;
+    gap: 20px;
+    padding-left: 4rem;
+}
+.signin__right__content >h5{
+    padding-left: 11.438rem;
+}
+.signin__right__content>div{
+   float: left;
+}
+.signin__left__content >p{
+    color: #5861AE;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+}
+.signin__right__content >p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #5861AE;
+}
+.signin__left__content >h5{
+    padding-top: 3rem;
+    color: #565657;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: small;
+    padding-bottom: 1rem;
+}
+.reg__login__btn{
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 0 10px;
+    width: 100px;
+    padding: 10px 0;
+    transition: 0.4s;
+  }
+  .reg__login__btn:hover {
+    color: white;
+    background-color: #5861AE;
+  }
+  
+.reg__login__btn {
+    color: #5861AE;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #5861AE;
+  }
+.signin__left__content >h4{
+    color: #565657;
+    font-size: small;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+
+}
+.text_field > input{
+   border:none;
+   outline: none;
+   background-color: #e7e9ff1a;
+}
+.text_field{
+    border-bottom: 1px solid gray;
+    width: 285px;
+
+}
+.text_field >label{
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+    font-size: small;
+    color: #5861AE;
+}
+.signin__midfooter >div >p{
+    color: grey;
+    font-size: 13px;
+    padding-top: 1rem;
+}
+.signin_topfooter{
+    background-color: #B9C0FD1A;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #5861AE;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.reff{
+    color: #182838;
+    font-size: 9px;
+}
+.signin__midfooter{
+    justify-content: space-evenly;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    background-image: url('../../../images/Footer@2x.png');
+    background-size: cover;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.logo{
+    padding-top: 2px;
+    display: flex;
+    gap: 7px;
+}
+
+.signin__botfooter{
+    background-color: #182838;
+    color: white;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+.msg{
+    font-size: 12px;
+    color: red;
+}
+#btn-{
+    width: 7rem;
+    padding-left: 8rem;
+
+}
+.sign__reg__btn {
+    background-color: #5861AE;
+    color: white;
+    padding: 11px 13px;
+    margin: 8px 0;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .sign__reg__btn:hover {
+    opacity: 0.8;
+  }

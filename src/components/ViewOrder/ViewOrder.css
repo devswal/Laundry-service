@@ -1,0 +1,39 @@
+.create-button{
+    border-color: #5861AE;
+    background-color: white;
+    color: #5861AE;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    position: relative;
+    bottom: 580px;
+    left: 940px;
+    cursor: pointer;
+  }
+  .orders-count{
+    font-weight: 700;
+    font-size: large;
+    position: relative;
+    bottom: 530px;
+    left: 70px;
+    
+  }
+    .search-bar{ 
+     background-repeat: no-repeat;
+    border: none;
+    border-bottom: 2px solid rgb(188, 182, 182);
+    position: relative;
+    bottom: 550px;
+    left: 1060px;
+  } 
+  .search-img{
+    position: relative;
+    bottom: 550px;
+    left: 1060px;
+  }
+  .table-body{
+   width: 1200px;
+   position: relative;
+   left: 100px;
+   bottom: 550px;
+  }

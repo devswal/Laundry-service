@@ -1,0 +1,29 @@
+.create__btn{
+    border-color: #5861AE;
+    background-color: white;
+    color: #5861AE;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    position: relative;
+    top: 160px;
+    left: 620px;
+    cursor: pointer;
+}
+.order-status{
+    color: #222B45;
+    font-weight: 620;
+    position: relative;
+    top: 150px;
+    left: 600px;
+}
+.create__btn:hover{
+    transform: scale(1.1);
+}
+.create__content {
+    display: flex;
+
+}
+.create__text{
+    margin: 10px;
+}

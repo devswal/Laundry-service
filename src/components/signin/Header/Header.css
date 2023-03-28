@@ -1,0 +1,37 @@
+.create__header{
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow:  0px 2px 48px #0000000F;
+}
+.create__header__heading{
+    flex: 0.8;
+    font-size: 25px;
+    color: #5861AE;
+    padding: 0.625rem;
+    font-weight: 800;
+    padding-left: 5rem;
+    letter-spacing: 2px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+#username{
+    background-color: #5861AE;
+    color: white;
+}
+.create__header__nav{
+    display: flex;
+    flex: 0.2;
+    justify-content: space-between;
+    color: #565657;
+    font-weight: 300;
+    font-size: 15px;
+}
+.create__header__nav > p{
+    border-left: 1px solid gainsboro;
+    padding: 0.625rem;
+}
+.create__header__nav > p:hover{
+   transform: scale(1.2);
+}
