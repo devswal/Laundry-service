@@ -109,7 +109,7 @@ const Register = () => {
             
             {/* {checked} */}
             {/* <Link to='/login'> */}
-            <Link to="/order">
+            <Link to="/signin">
             <div id='btn'><button className='reg__btn' disabled={!agreement} onClick={uploadPost}>Register</button></div>
       </Link>
            

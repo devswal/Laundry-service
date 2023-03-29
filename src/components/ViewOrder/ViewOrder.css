@@ -6,7 +6,7 @@
     width: 100px;
     height: 35px;
     position: relative;
-    bottom: 580px;
+    bottom: 770px;
     left: 940px;
     cursor: pointer;
   }
@@ -14,7 +14,7 @@
     font-weight: 700;
     font-size: large;
     position: relative;
-    bottom: 530px;
+    bottom: 730px;
     left: 70px;
     
   }
@@ -23,17 +23,31 @@
     border: none;
     border-bottom: 2px solid rgb(188, 182, 182);
     position: relative;
-    bottom: 550px;
+    bottom: 740px;
     left: 1060px;
   } 
   .search-img{
     position: relative;
-    bottom: 550px;
+    bottom: 740px;
     left: 1060px;
   }
   .table-body{
-   width: 1200px;
+   width: 1300px;
    position: relative;
-   left: 100px;
-   bottom: 550px;
+   left: 80px;
+   bottom: 745px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
   }

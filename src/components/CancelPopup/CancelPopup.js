@@ -2,11 +2,11 @@ import React, { useEffect } from 'react'
 import ReactModal from 'react-modal';
 import { useState } from 'react';
 import Alertmodal from './AlertModal'
-import './SummaryPopup.css';
+import './CancelPopup.css';
 import { computeHeadingLevel } from '@testing-library/react';
 import SuccessPopup from '../SuccessPopup/SuccessPopup';
 
-function Summary({showModal, setShowModal,clothesCount}) {
+function Cancel({showModal, setShowModal,clothesCount}) {
     console.log(clothesCount);
     const [isModalOpen, setIsModalOpen] = useState(showModal);
     const [totalPrice, setTotalPrice] = useState(0)
@@ -45,9 +45,9 @@ let total=0
   contentLabel="Example Modal"
   style={{
     content: {
-      width: '70vw',
-      height: '85vh',
-      position: 'fixed', right:'60%', left: '64.5%', top: '47%', transform: 'translate(-50%, -50%)',
+      width: '65vw',
+      height: '89vh',
+      position: 'fixed', right:'60%', left: '64.5%', top: '50%', transform: 'translate(-50%, -50%)',
 
     }
   }}
@@ -94,12 +94,12 @@ let total=0
 <div className='total-price'>
    <p>Total: RS {totalPrice} </p>
   </div>
-<button onClick={()=>handleClick()} className='summary-proceed-button'>Proceed</button>
-{showComponent && <SuccessPopup showalert={showComponent} setshowalert={setShowComponent}/>}
+<button onClick={()=>handleClick()} className='cancel-proceed-button'>Cancel Order</button>
+{showComponent && <Alertmodal showalert={showComponent} setshowalert={setShowComponent}/>}
 </div>
 </ReactModal>
     </div>
   )
 }
-export default Summary
+export default Cancel
 

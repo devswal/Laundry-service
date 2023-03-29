@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useRef  } from 'react'
 import {useEffect} from "react";
 import "../ViewOrder/ViewOrder.css"
 import UserData from './UserData';
@@ -40,9 +40,8 @@ import {Link} from "react-router-dom";
 // }]
   
 function ViewOrder() {
-  const [numoforder, setnumoforder] = useState(3)
+  const [numoforder, setnumoforder] = useState(12)
   const [users, setUsers] = useState([])
-
   const fetchUsers = async () => {
       try {
           const res = await axios.get('http://localhost:8000')
@@ -78,7 +77,7 @@ function ViewOrder() {
      <button className='create-button' type="button">Create</button>
             </Link>
      
-     <table className='table-body' >
+     <table  className='table-body' >
             <thead>
             <tr>
                 <th >Order ID</th>

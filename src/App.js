@@ -24,6 +24,7 @@ function App() {
         <Route path='/create' element={<Home username={username}  email={email}/>}></Route>
         <Route path='/order' element={<OrderHome email={email} username={username} />}></Route>
         <Route path='/pastorder' element={<ViewOrder />}></Route>
+        <Route path='/signin' element={<Signin />}></Route>
       </Routes>
       </BrowserRouter>
     </div>

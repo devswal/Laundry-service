@@ -16,13 +16,19 @@
     cursor: pointer;
     
 }
-.link{
+#nav_features{
+    margin-left: 40px;
+    font-style: Avenir, Book;
+    color: #565657;
+    font-weight: 400;
+}
+/* .link{
     /* height: 3rem; */
-    text-align: center;
+    /* text-align: center;
     place-items: center;
     padding-top: 0.5rem;
     background-color: #5861AE;
-}
+} */ */
 .create__header__heading{
     flex: 0.8;
     font-size: 11px;
@@ -32,6 +38,13 @@
 #username{
     background-color: #5861AE;
     color: white;
+    width: 150px;
+    height: 30px;
+    position: relative;
+    bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 40px;
 }
 .create_header_nav>p{
     font-family: 'Source Sans Pro', sans-serif;

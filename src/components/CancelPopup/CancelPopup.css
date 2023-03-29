@@ -1,0 +1,107 @@
+.summary{
+    background-color: #5861AE;
+    color: white;
+    font-style: Open Sans, Semibold;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .adress{
+    display: flex;
+    flex-direction: row;
+    background-color: #F4F9FF;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: 500;
+  }
+  .cancel-proceed-button{
+    background-color: #F41313;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    position: relative;
+    left: 825px;
+    top: 290px;
+  }
+  .cancel-alert-heading{
+    background-color: #5861AE;
+    color: #fff;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .alert-image{
+    position: relative;
+    top: 50px;
+  }
+  .done-img{
+    position: relative;
+    left: 86px;
+    top: 10px;
+  }
+  .successfull{
+    padding: 20px;
+    text-align: center;
+  }
+  .cancel-alert-content{
+    text-align: center;
+  letter-spacing: 0.34px;
+  margin-left: 20px;
+  color: #565657;
+  } 
+  .cancel-proceed_button{
+    background-color: #5861AE;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    position: relative;
+    top: 20px;
+    left: 170px;
+  }
+  .total-price{
+    background-color: #5861AE;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .tracking-bar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tracking-step {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 150px;
+    text-align: center;
+  }
+  .circle {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+  }
+  .circle_1{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: #5861AE;
+  }
+  .line {
+    border-top: 2px solid black;
+    width: 200px;
+    margin-right: 20px;
+    /* display: block; */
+  }
