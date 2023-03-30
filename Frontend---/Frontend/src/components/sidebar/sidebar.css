@@ -1,0 +1,27 @@
+.sidebar{
+  width:2rem;
+  background-color: #5861AE;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  height: 46.3rem;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  place-items: center;
+}
+.sidebar >div{
+  margin-top: 20px;
+}
+.sidebar >div:hover{
+ transform: scale(1.2);
+}
+.more{
+  padding: 5px;
+}
+
+.more:hover{
+  transform: scale(1.2);
+}
+.list:hover{
+  transform: scale(1.2);
+}

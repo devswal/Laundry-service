@@ -1,0 +1,53 @@
+.create-button{
+    border-color: #5861AE;
+    background-color: white;
+    color: #5861AE;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    position: relative;
+    bottom: 770px;
+    left: 940px;
+    cursor: pointer;
+  }
+  .orders-count{
+    font-weight: 700;
+    font-size: large;
+    position: relative;
+    bottom: 730px;
+    left: 70px;
+    
+  }
+    .search-bar{ 
+     background-repeat: no-repeat;
+    border: none;
+    border-bottom: 2px solid rgb(188, 182, 182);
+    position: relative;
+    bottom: 740px;
+    left: 1060px;
+  } 
+  .search-img{
+    position: relative;
+    bottom: 740px;
+    left: 1060px;
+  }
+  .table-body{
+   width: 1300px;
+   position: relative;
+   left: 80px;
+   bottom: 745px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
